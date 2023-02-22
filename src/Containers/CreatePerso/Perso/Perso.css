@@ -1,0 +1,13 @@
+.content-perso {
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.item {
+    font-size: 25px;
+    border: 1px solid #6d2020;
+    border-radius: 10px;
+    padding: 20px;
+}

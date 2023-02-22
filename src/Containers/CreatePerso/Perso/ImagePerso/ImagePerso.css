@@ -1,0 +1,26 @@
+.content-img-perso {
+    width: auto;
+    display: flex;
+    align-items: center ;
+}
+
+.image-perso {
+    width: auto;
+    height: 500px;
+}
+.droite {
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(50% 51%, 0 0, 0 100%);
+    background-color: rgb(205, 182, 226);
+    cursor: pointer;
+    margin-left: 20px;
+}
+.gauche {
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(50% 51%, 100% 0, 100% 100%);
+    background-color: rgb(205, 182, 226);
+    cursor: pointer;
+    margin-right: 20px;
+}
